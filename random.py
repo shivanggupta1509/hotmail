@@ -1,7 +1,7 @@
 import requests
 import json
 import string
-
+import random
 import os
 import time
 
@@ -32,7 +32,7 @@ class Main:
 	def __init__(self):
 		self.settitle(script_title)
 		self.clear(script_info)
-		self.email                 = ''.join(random.choice(username) for i in range(random.randint(7,11)))
+		self.email                 = 
 		self.password              = ('shivanggupta')
 		self.birth_year            = int('1999')
 		self.birth_month           = int('9')
@@ -50,7 +50,7 @@ class Main:
 		username                   = string.ascii_letters + string.digits
 		username                   = ('Shivang')
 		credentails['username']    = username
-		credentails['email']       = self.email+"@hotmail.com"
+		credentails['email']       = ''.join(random.choice(username) for i in range(random.randint(7,11)))+"@hotmail.com"
 
 		return credentails
 
