@@ -1,7 +1,5 @@
 import requests
 import json
-
-import random
 import string
 
 import os
