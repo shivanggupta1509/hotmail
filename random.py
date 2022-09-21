@@ -32,7 +32,6 @@ class Main:
 	def __init__(self):
 		self.settitle(script_title)
 		self.clear(script_info)
-		self.email                 = 
 		self.password              = ('shivanggupta')
 		self.birth_year            = int('1999')
 		self.birth_month           = int('9')
