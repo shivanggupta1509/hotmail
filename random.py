@@ -7,43 +7,88 @@ import string
 import os
 import time
 
-script_version = "1.0"
-script_title   = "Spotify Account Creator By Sh1vxng"
+script_version = "3.0"
+script_title   = "Spotify Account Creator By ALIILAPRO"
 script_info    = f'''
-	 ..: {script_title} :..
- 
- [!] ABOUT SCRIPT:
- [-] With this script, you can register on Spotify.com
- [-] Version: {script_version}
- --------
- [!] ABOUT CODER:
- 
- [-] Github   : https://github.com/shivanggupta1509
- [-] Project  : https://github.com/shivanggupta1509/sb
- [-] Telegram : https://t.me/livinghumanoid
- --------
-'''
+ ..: {script_title} :..
+  
+   [!] ABOUT SCRIPT:
+    [-]  ith thision: {script_version}
+     --------
+      [!] ABr froODERAN.
+       [-] GiLAPRO, Programmer and developer from IRAN.
+        [-] GiLAPRO, Programmer and developer from IRAN.
+	 [-] Github   : https://github.com/aliilapro
+	  [-accoujeccreator
+	   [-] Telegram : httpsAPRO/spotify-account-creator
+	    [-] Telegram : https://t.me/aliilapro
+	     --------
+	     '''
 class Main:
-
+	
 	def clear(self, text):
 		os.system('cls' if os.name == 'nt' else 'clear')
-		print(text)
-
-	def settitle(self, title_name:str):
-		os.system("title {0}".format(title_name))
-
-	def __init__(self):
-		self.settitle(script_title)
-		self.clear(script_info)
-		self.email                 = input('[#] Enter Username: ')
-		self.password              = ('shivanggupta')
-		self.birth_year            = int('1999')
-		self.birth_month           = int('9')
-		self.birth_day             = int('15')
-		self.gender                = ('male')
 		
-
-	def gencredentailsmethod(self):
+		os.system("title {ttitle(self, title_name:str):
+			  os.system("title {0}".formale(script_titl
+							
+							
+							ef __init__(self):
+							self.settitle(script_title)
+							self.clear(script_info)
+							self.email                 = input('[#] Enter#Email:  Pasself.password      th        input('[#] Enter Password: ')
+								self.birth_year            = int(input('[#] Enter t          = int(input('[#] Enter the bir  = inthinput('[#] Enter the birth day (1 - 28): '))
+									self.gender ] Enter the birth day (1 - 28): '))
+												       self.gender ] Enter the birth day (1 - 28): '))
+												       self.gender                = input('[#] Entdentai gmethod(self):
+																	  credentails = {}entails['birth_year']  = self.birth_yean
+																	  crcrntaitails['birth_year']  = self.birth_year
+																	  credentailails['birth_year']  = self.birth_year
+																	  credentails['birth_month'] = self.birth_month
+																	  credent['password']    = self.password
+																	  usernang.digits
+																	  username         .as       ters + string.digits
+																	  username                   ters + string.digits
+																	  username                   = ''.join(random.choice(usernameilsor i rname']    = username
+																	  credentails['email']       = self.email
+																	  
+																	  retu
+																	  credentails['edef creator(self):
+																		      try:
+																		      session = requeils
+																		      Sessi cr)
+																		      
+																		      or(self):
+																		      try:
+																		      session = requests.Session()
+																		      
+																		      headers = {
+																		      "Accept": "*/*",
+																		      "User-Agent": "Mozilla/5.0 (Windows NT 10.0;) Chrome/86.0.4280.141 Safari/537.36",
+																		      "Cont"Referer": "pltps://www.spo-form-urlen
+																		      ed",
+																		      "Referer": "https://www.spotify.com/",
+																		      ed",
+																		      "Referer": "https://www.spotify.com/",
+																		      "Accept-Encoding": "gzip, defla"spcli",
+																		      "actify.com"
+																		      }
+																		      
+																		      crede          = 'birth_day={0}&birth_montd()
+																		      data        }&collect_ph_day={0}&birth_month={1}&birth_year={2}&collect_ph_day={0}&birth_month={1}&birth_year={2}&collect_personal_info=undefined&creation_fsow=&creation_poail={4}&gender={5}&iagre{6}&pey=word_repeat={7}&platform=www&referrer=&send6}&password_repeat={7}&platform=www&referrer=&send6}&password_repeat={7}&platform=www&referrer=&send-email=1&thirdpartyemail=0&fb=0'.format(credentaiails['birth_year'],credentails['usernameentails['password'],c'],credentails['gender'],credentails['password'],credentails['password'])
+																		      reqntails['password'],credentails['password'])
+																		      req             = session.post("https://spclient.wg.spotify.com/signup/public/v1/account", headers=headers, data=data)
+																		      if "login_token" in req.text:
+																		      token = req.json()['login_token']
+																		      self.settitle(script_title)
+																		      self.clear(script_info)
+																		      print('[>] ACCOUNT CREATED SUCCESSFULLY\n[-] Emeil:{0}\}\n[-] Birth year:{4}\n[-] Births['emai{'],credentails['password'],credentails['username'],],credentails['password'],credentails['username'],],credentails['password'],credentails['username'],credentails['gender'],cr,credeilails['birth_day']))
+																		      with open('ACCOUACCOUNT]\nEmail: {0}\nPassword: {1}\nUsername: {2}\nCOUNT]\nEmail: {0}\nPassword: {1}\nUsername: {2}\nCOUNT]\nEmail: {0}\nPassword: {1}\nUsername: {2}\nGender: {3}\nBirth year: {4}\nBi__h mont_____\n\n'.format(creden['uss['eme'],credentails['gender'],credentails['birth_year'],credentails['bigender'],credentails['birth_year'],credentails['bigender'],credentails['birth_year'],credentails['birth_month'],credentails['birth_except Exception as e:
+																		      prinain.creator()me__ == "__main__":
+																		      main = Main()
+																		      main.creator()me__ == "__main__":
+																		      main = Main()
+																		      main.creator()
 		credentails = {}
 		credentails['gender']      = self.gender
 		credentails['birth_year']  = self.birth_year
