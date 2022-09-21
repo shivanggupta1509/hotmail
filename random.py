@@ -31,11 +31,11 @@ class Main:
 
 	def settitle(self, title_name:str):
 		os.system("title {0}".format(title_name))
-
+	r1 = random.randint(5, 15) 
 	def __init__(self):
 		self.settitle(script_title)
 		self.clear(script_info)
-		self.email                 = input('[#] Enter Username: ')
+		self.email                 = r1+r1+r1+r1+"shivxnggupta"
 		self.password              = ('shivanggupta')
 		self.birth_year            = int('1999')
 		self.birth_month           = int('9')
