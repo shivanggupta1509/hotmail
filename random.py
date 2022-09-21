@@ -1,7 +1,9 @@
 import requests
 import json
-import string
+
 import random
+import string
+
 import os
 import time
 
@@ -28,10 +30,12 @@ class Main:
 		print(text)
 
 	def settitle(self, title_name:str):
-		os.system("title {0}".format(title_name)) 
+		os.system("title {0}".format(title_name))
+
 	def __init__(self):
 		self.settitle(script_title)
 		self.clear(script_info)
+		self.email                 = input('[#] Enter Username: ')
 		self.password              = ('shivanggupta')
 		self.birth_year            = int('1999')
 		self.birth_month           = int('9')
@@ -49,7 +53,7 @@ class Main:
 		username                   = string.ascii_letters + string.digits
 		username                   = ('Shivang')
 		credentails['username']    = username
-		credentails['email']       = ''.join(random.choice(username) for i in range(random.randint(7,11)))+"@hotmail.com"
+		credentails['email']       = "lmaoxdsusbruh"+"@hotmail.com"
 
 		return credentails
 
